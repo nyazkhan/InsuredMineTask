@@ -1,6 +1,14 @@
-# AngularTask
+# InsuredMind Task
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+
+
+## Project completed with 2 diffrent implementation 
+ # custom implimantation using javascript
+ # using angular-social-mention npm package
+
+
+
 
 ## Development server
 
