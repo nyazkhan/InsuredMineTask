@@ -1,5 +1,5 @@
 #wrapper {
-	width: 600px;
+	/* width: 600px; */
 	margin: 15px auto;
 	position: relative;
 }
@@ -22,7 +22,7 @@
 .mention:not(.ignore) {
 	padding: 2px 8px 2px 4px;
 	border-radius: 50px;
-	background-color: #d8dbe3;
+	background-color: #ffeb3b;
 	color: #616775;
 }
 .mention:not(.ignore).focused {

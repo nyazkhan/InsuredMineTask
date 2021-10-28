@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 export class LoginService {
   loginData = true;
   userList = []
-  userNameList = []
+  userNameList = [] 
   validUser = localStorage.getItem('login') == 'true'|| false
 loggedInUserDetails :any;
   constructor(private http: HttpClient) {
@@ -42,5 +42,8 @@ loggedInUserDetails :any;
     localStorage.removeItem('user');
 
     this.validUser = false
+  }
+  getUserNameList(){
+    return this.userNameList
   }
 }

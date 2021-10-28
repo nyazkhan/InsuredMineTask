@@ -9,6 +9,7 @@ import { GalleryComponent } from './module/gallery/gallery.component';
 import { HomeComponent } from './module/home/home.component';
 import { SharedModule } from './shared/shared.module';
 import { AutocompleteComponent } from './module/autocomplete/autocomplete.component';
+import { MentionModule } from 'angular-social-mentions';
 
 @NgModule({
   declarations: [AppComponent,
@@ -22,6 +23,7 @@ import { AutocompleteComponent } from './module/autocomplete/autocomplete.compon
     HttpClientModule,
     AppRoutingModule,
     SharedModule,
+    MentionModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
