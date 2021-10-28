@@ -3,8 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
 
-# Project completed with 2 diffrent implementation 
- ## 1. custom implimantation using javascript
+# Project completed with 2 different implementation 
+ ## 1. custom implementation using javascript
  ## 2. using angular-social-mention npm package
 
 project started on 21 oct 2021 - end on 29-10-2021
