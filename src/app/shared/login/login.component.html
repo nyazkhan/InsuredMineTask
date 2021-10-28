@@ -1,0 +1,40 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+
+
+
+        <!-- Login Form -->
+        <form [formGroup]="myForm" (ngSubmit)="submit(myForm.value)">
+            <div class="row form-group">
+                <div class="col-md-12">
+                    <label class="text-black" for="email">Email</label>
+                    <input type="email" id="email" formControlName="email" class="form-control">
+                </div>
+            </div>
+            <div *ngIf="myForm.controls['email'].errors?.email ||  myForm.controls['email'].errors?.required && (myForm.controls['email'].dirty ||
+  myForm.controls['email'].touched)" class="alert alert-danger">
+                Email is Required
+            </div>
+            <div class="row form-group">
+                <div class="col-md-12">
+                    <label class="text-black" for="password">Password</label>
+                    <input type="password" id="password" formControlName="password" class="form-control">
+                </div>
+            </div>
+            <div *ngIf="myForm.controls['password'].invalid && (myForm.controls['password'].dirty || myForm.controls['password'].touched)"
+                class="alert alert-danger">
+
+                Password is Required
+
+            </div>
+            <button type="submit" class="btn btn-success btn-block mt-2">Login</button>
+
+        </form>
+
+        <div id="formFooter" style="    text-align: center;">
+            <a class="underlineHover" href="#">Sign Up</a>
+        </div>
+
+    </div>
+</div>
